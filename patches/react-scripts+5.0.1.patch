@@ -1,0 +1,88 @@
+diff --git a/node_modules/react-scripts/config/paths.js b/node_modules/react-scripts/config/paths.js
+index f4470a0..75cb1d4 100644
+--- a/node_modules/react-scripts/config/paths.js
++++ b/node_modules/react-scripts/config/paths.js
+@@ -65,18 +65,18 @@ module.exports = {
+   appBuild: resolveApp(buildPath),
+   appPublic: resolveApp('public'),
+   appHtml: resolveApp('public/index.html'),
+-  appIndexJs: resolveModule(resolveApp, 'src/index'),
++  appIndexJs: resolveModule(resolveApp, 'client/index'),
+   appPackageJson: resolveApp('package.json'),
+-  appSrc: resolveApp('src'),
++  appSrc: resolveApp('client'),
+   appTsConfig: resolveApp('tsconfig.json'),
+   appJsConfig: resolveApp('jsconfig.json'),
+   yarnLockFile: resolveApp('yarn.lock'),
+-  testsSetup: resolveModule(resolveApp, 'src/setupTests'),
+-  proxySetup: resolveApp('src/setupProxy.js'),
++  testsSetup: resolveModule(resolveApp, 'client/setupTests'),
++  proxySetup: resolveApp('client/setupProxy.js'),
+   appNodeModules: resolveApp('node_modules'),
+   appWebpackCache: resolveApp('node_modules/.cache'),
+   appTsBuildInfoFile: resolveApp('node_modules/.cache/tsconfig.tsbuildinfo'),
+-  swSrc: resolveModule(resolveApp, 'src/service-worker'),
++  swSrc: resolveModule(resolveApp, 'client/service-worker'),
+   publicUrlOrPath,
+ };
+ 
+@@ -90,23 +90,23 @@ module.exports = {
+   appBuild: resolveApp(buildPath),
+   appPublic: resolveApp('public'),
+   appHtml: resolveApp('public/index.html'),
+-  appIndexJs: resolveModule(resolveApp, 'src/index'),
++  appIndexJs: resolveModule(resolveApp, 'client/index'),
+   appPackageJson: resolveApp('package.json'),
+-  appSrc: resolveApp('src'),
++  appSrc: resolveApp('client'),
+   appTsConfig: resolveApp('tsconfig.json'),
+   appJsConfig: resolveApp('jsconfig.json'),
+   yarnLockFile: resolveApp('yarn.lock'),
+-  testsSetup: resolveModule(resolveApp, 'src/setupTests'),
+-  proxySetup: resolveApp('src/setupProxy.js'),
++  testsSetup: resolveModule(resolveApp, 'client/setupTests'),
++  proxySetup: resolveApp('client/setupProxy.js'),
+   appNodeModules: resolveApp('node_modules'),
+   appWebpackCache: resolveApp('node_modules/.cache'),
+   appTsBuildInfoFile: resolveApp('node_modules/.cache/tsconfig.tsbuildinfo'),
+-  swSrc: resolveModule(resolveApp, 'src/service-worker'),
++  swSrc: resolveModule(resolveApp, 'client/service-worker'),
+   publicUrlOrPath,
+   // These properties only exist before ejecting:
+   ownPath: resolveOwn('.'),
+   ownNodeModules: resolveOwn('node_modules'), // This is empty on npm 3
+-  appTypeDeclarations: resolveApp('src/react-app-env.d.ts'),
++  appTypeDeclarations: resolveApp('client/react-app-env.d.ts'),
+   ownTypeDeclarations: resolveOwn('lib/react-app.d.ts'),
+ };
+ 
+@@ -128,23 +128,23 @@ if (
+     appBuild: resolveOwn(path.join('../..', buildPath)),
+     appPublic: resolveOwn(`${templatePath}/public`),
+     appHtml: resolveOwn(`${templatePath}/public/index.html`),
+-    appIndexJs: resolveModule(resolveOwn, `${templatePath}/src/index`),
++    appIndexJs: resolveModule(resolveOwn, `${templatePath}/client/index`),
+     appPackageJson: resolveOwn('package.json'),
+-    appSrc: resolveOwn(`${templatePath}/src`),
++    appSrc: resolveOwn(`${templatePath}/client`),
+     appTsConfig: resolveOwn(`${templatePath}/tsconfig.json`),
+     appJsConfig: resolveOwn(`${templatePath}/jsconfig.json`),
+     yarnLockFile: resolveOwn(`${templatePath}/yarn.lock`),
+-    testsSetup: resolveModule(resolveOwn, `${templatePath}/src/setupTests`),
+-    proxySetup: resolveOwn(`${templatePath}/src/setupProxy.js`),
++    testsSetup: resolveModule(resolveOwn, `${templatePath}/client/setupTests`),
++    proxySetup: resolveOwn(`${templatePath}/client/setupProxy.js`),
+     appNodeModules: resolveOwn('node_modules'),
+     appWebpackCache: resolveOwn('node_modules/.cache'),
+     appTsBuildInfoFile: resolveOwn('node_modules/.cache/tsconfig.tsbuildinfo'),
+-    swSrc: resolveModule(resolveOwn, `${templatePath}/src/service-worker`),
++    swSrc: resolveModule(resolveOwn, `${templatePath}/client/service-worker`),
+     publicUrlOrPath,
+     // These properties only exist before ejecting:
+     ownPath: resolveOwn('.'),
+     ownNodeModules: resolveOwn('node_modules'),
+-    appTypeDeclarations: resolveOwn(`${templatePath}/src/react-app-env.d.ts`),
++    appTypeDeclarations: resolveOwn(`${templatePath}/client/react-app-env.d.ts`),
+     ownTypeDeclarations: resolveOwn('lib/react-app.d.ts'),
+   };
+ }
