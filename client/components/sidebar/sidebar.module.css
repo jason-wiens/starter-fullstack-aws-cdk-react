@@ -1,0 +1,11 @@
+.container {
+  @apply bg-primary-900 w-full h-full py-8;
+}
+
+.logoContainer {
+  @apply w-full px-4;
+}
+
+.menuSection {
+  @apply py-8 border-b border-primary-100 px-4;
+}

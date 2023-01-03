@@ -1,0 +1,23 @@
+.text {
+  @apply text-2xl font-semibold ml-1;
+}
+
+.icon {
+  @apply text-2xl;
+}
+
+.text.dark {
+  @apply text-primary-500;
+}
+
+.text.light {
+  @apply text-primary-100;
+}
+
+.icon.dark {
+  @apply text-accent-500;
+}
+
+.icon.light {
+  @apply text-primary-100;
+}

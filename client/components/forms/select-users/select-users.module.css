@@ -1,0 +1,47 @@
+.container {
+  @apply w-full;
+}
+
+.searchContainer {
+  @apply w-full block;
+}
+
+.search {
+  @apply max-w-[360px];
+}
+
+.addButton {
+  @apply flex items-center border-dashed border border-gray-600 rounded-lg text-gray-600 px-8 py-4 cursor-pointer;
+}
+
+.addIcon {
+  @apply mr-2;
+}
+
+.userBadges {
+  @apply flex flex-wrap items-start;
+}
+
+.badgeContainer {
+  @apply flex items-center mr-4 justify-center bg-primary-100 px-4 py-2 rounded-full text-primary-900 shadow-dark5;
+}
+
+.userName {
+  @apply font-bold;
+}
+
+.userEmail {
+  @apply text-sm;
+}
+
+.badgeIcon {
+  @apply ml-2 mr-4 text-xl;
+}
+
+.removeIcon {
+  @apply ml-8 rounded-full hover:bg-primary-900 hover:text-white cursor-pointer py-1 px-2;
+}
+
+.error {
+  @apply text-red-500 px-4 py-2 w-full bg-red-500/20 font-bold mb-4;
+}

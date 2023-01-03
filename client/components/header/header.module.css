@@ -1,0 +1,11 @@
+.container {
+  @apply flex justify-between px-4 py-2 shadow-dark2 z-10 w-full bg-white sticky items-center;
+}
+
+.userContainer {
+  @apply relative z-20;
+}
+
+.org {
+  @apply text-primary-500 text-lg;
+}

@@ -1,0 +1,10 @@
+.container {
+}
+
+.title {
+  @apply text-primary-500 mb-1;
+}
+
+.content {
+  @apply bg-white shadow-card rounded-md;
+}

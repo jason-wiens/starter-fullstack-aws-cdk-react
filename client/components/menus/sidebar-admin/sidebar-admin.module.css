@@ -1,0 +1,24 @@
+.menuTitle {
+  @apply uppercase text-primary-100 mb-4 font-bold;
+}
+
+.menuList {
+  @apply mb-6;
+}
+
+.menuItem {
+  @apply text-white mb-4 font-semibold;
+}
+
+.menuItem.active,
+.menuItem:hover {
+  @apply text-accent-500;
+}
+
+.createProjectButton {
+  @apply text-primary-100 font-semibold transition-colors;
+}
+
+.createProjectButton:hover {
+  @apply text-white;
+}

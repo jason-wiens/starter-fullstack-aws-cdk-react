@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "lib/*": ["lib/*"],
+      "models/*": ["models/*"],
+      "services/*": ["services/*"],
+      "utils/*": ["utils/*"],
+      "functions/*": ["functions/*"],
+      "types/*": ["client/types/*"],
+      "guards/*": ["guards/*"],
+      "routes/*": ["client/routes/*"],
+      "validators/*": ["validators/*"],
+      "assets/*": ["client/assets/*"],
+      "components/*": ["client/components/*"],
+      "hooks/*": ["client/hooks/*"],
+      "data/*": ["client/data/*"],
+      "client/*": ["client/*"]
+    }
+  }
+}

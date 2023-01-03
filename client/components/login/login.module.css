@@ -1,0 +1,11 @@
+.pageContainer {
+  @apply w-full h-[100vh] flex justify-center items-center relative;
+}
+
+.container {
+  @apply p-8 bg-white rounded-md shadow-dark3 min-w-[400px];
+}
+
+.logoContainer {
+  @apply absolute left-16 top-8;
+}

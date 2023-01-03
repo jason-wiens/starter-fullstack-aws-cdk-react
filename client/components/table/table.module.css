@@ -1,0 +1,67 @@
+.table {
+  @apply w-full border border-primary-500/20 rounded-md overflow-hidden shadow-dark3;
+}
+
+.header {
+  @apply bg-primary-500/20 flex;
+}
+
+.headerColumn {
+  @apply text-primary-500 font-bold flex text-center;
+}
+
+.row {
+  @apply flex w-full border-b border-primary-500/20 items-center;
+}
+
+.row:last-of-type {
+  @apply border-b-0;
+}
+
+.row:hover {
+  @apply bg-primary-500/5;
+}
+
+.cell {
+  @apply flex;
+}
+
+.userColumn {
+  @apply flex items-center;
+}
+
+.userMeta {
+  @apply ml-2;
+}
+
+.userName {
+  @apply font-bold;
+}
+
+.badge {
+  @apply py-1 px-4 rounded-full text-sm font-bold whitespace-nowrap;
+}
+
+.badge.green {
+  @apply bg-green-500/20 text-green-500;
+}
+
+.badge.accent {
+  @apply bg-accent-500/20 text-accent-500;
+}
+
+.badge.red {
+  @apply bg-red-500/20 text-red-500;
+}
+
+.badge.yellow {
+  @apply bg-yellow-500/20 text-yellow-500;
+}
+
+.badge.blue {
+  @apply bg-primary-500/20 text-primary-500;
+}
+
+.badge.gray {
+  @apply bg-gray-600/20 text-gray-600;
+}

@@ -1,0 +1,7 @@
+.loading {
+  @apply w-[42px] h-[42px] rounded-full bg-primary-500/20 animate-pulse;
+}
+
+.avatar {
+  @apply w-[42px] h-[42px] rounded-full bg-primary-500/20 text-primary-500 font-semibold flex justify-center items-center cursor-pointer;
+}

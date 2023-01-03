@@ -1,0 +1,15 @@
+.layout {
+  @apply min-h-screen w-full flex h-1;
+}
+
+.sidebarContainer {
+  @apply w-[240px] h-full;
+}
+
+.mainContainer {
+  @apply flex-grow flex flex-col;
+}
+
+.main {
+  @apply w-full flex-grow p-8 bg-primary-100 flex justify-center;
+}

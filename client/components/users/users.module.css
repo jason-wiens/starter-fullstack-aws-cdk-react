@@ -1,0 +1,27 @@
+.container {
+  @apply w-1/2;
+}
+
+.titleCard {
+  @apply bg-white shadow-dark2 p-8 rounded-md mb-8 flex w-full;
+}
+
+.logo {
+  @apply rounded-full bg-primary-500/20 w-12 h-12 flex items-center justify-center text-primary-500 mr-4 text-2xl;
+}
+
+.title {
+  @apply text-xl font-bold;
+}
+
+.orgTitle {
+  @apply text-primary-500;
+}
+
+.contentCard {
+  @apply bg-white shadow-dark2 p-8 rounded-md;
+}
+
+.addUserContainer {
+  @apply flex justify-end mb-4;
+}

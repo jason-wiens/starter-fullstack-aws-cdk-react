@@ -1,0 +1,33 @@
+.container {
+  @apply w-full mb-8 relative;
+}
+
+.label {
+  @apply mb-1 font-semibold;
+}
+
+.label.error {
+  @apply text-red-500 font-normal;
+}
+
+.input {
+  @apply w-full pt-1 border-b border-b-gray-200 focus-visible:outline-none focus-visible:border-b-primary-500;
+}
+
+.input:active ~ .labelInside,
+.input:focus ~ .labelInside,
+.input:focus-visible ~ .labelInside {
+  @apply text-primary-500;
+}
+
+.input.error {
+  @apply border-b-red-500 text-sm;
+}
+
+.input.disabled {
+  @apply w-full pt-1 border-b-2 border-b-gray-200;
+}
+
+.errorMsg {
+  @apply text-sm text-red-500 mt-1 font-semibold;
+}

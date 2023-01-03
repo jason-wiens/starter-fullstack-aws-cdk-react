@@ -1,0 +1,27 @@
+.container {
+  @apply w-full max-w-[600px];
+}
+
+.titleCard {
+  @apply bg-white shadow-dark2 p-8 rounded-md mb-8 flex;
+}
+
+.logo {
+  @apply rounded-full bg-primary-500/20 w-12 h-12 flex items-center justify-center text-primary-500 mr-4 text-2xl;
+}
+
+.title {
+  @apply text-xl font-bold;
+}
+
+.orgTitle {
+  @apply text-primary-500;
+}
+
+.contentCard {
+  @apply bg-white shadow-dark2 p-8 rounded-md;
+}
+
+.generalError {
+  @apply text-red-500 px-4 py-2 bg-red-500/10 w-full font-bold mb-4;
+}

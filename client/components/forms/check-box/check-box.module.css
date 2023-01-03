@@ -1,0 +1,27 @@
+.container {
+  @apply flex cursor-pointer items-center mb-8;
+}
+
+.checkbox {
+  @apply w-6 h-6 border border-gray-200 flex justify-center items-center mr-3;
+}
+
+.checkbox.checked {
+  @apply border-green-500 bg-green-500/20;
+}
+
+.checkbox.disabled {
+  @apply border-gray-400 bg-gray-400/20;
+}
+
+.checkIcon {
+  @apply text-green-500;
+}
+
+.checkIcon.disabled {
+  @apply text-gray-400;
+}
+
+.label {
+  @apply font-semibold;
+}

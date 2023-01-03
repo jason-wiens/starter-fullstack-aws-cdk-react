@@ -1,0 +1,47 @@
+.container {
+  @apply relative;
+}
+
+.userMenu {
+  @apply absolute right-0 bottom-0 translate-y-full scale-y-0 transition-transform origin-top shadow-dark3 rounded-md bg-white overflow-hidden;
+}
+
+.container:hover .userMenu {
+  @apply scale-y-100;
+}
+
+.header {
+  @apply bg-primary-900 py-4 px-8;
+}
+
+.name {
+  @apply text-white font-semibold text-lg whitespace-nowrap;
+}
+
+.email {
+  @apply text-primary-100 whitespace-nowrap font-bold;
+}
+
+.body {
+  @apply p-8;
+}
+
+.item {
+  @apply mb-4 hover:text-primary-500 font-semibold;
+}
+
+.icon {
+  @apply mr-4;
+}
+
+.logout {
+  @apply border-t border-gray-200 pt-8 mt-8 flex flex-col items-center;
+}
+
+.error {
+  @apply text-red-500 relative font-semibold bg-red-500/20 w-full text-center py-2 mb-4;
+}
+
+.close {
+  @apply absolute top-0 right-0 py-1 px-2 cursor-pointer;
+}

@@ -1,0 +1,47 @@
+.container {
+  @apply relative flex justify-center items-center w-8 h-8 rounded-full;
+}
+
+.container:hover .label {
+  @apply scale-x-100;
+}
+
+.container.green {
+  @apply bg-green-500;
+}
+
+.container.green .label {
+  @apply bg-green-500 text-white;
+}
+
+.container.primary {
+  @apply bg-primary-500;
+}
+
+.container.primary .label {
+  @apply bg-primary-500 text-white;
+}
+
+.container.accent {
+  @apply bg-accent-500;
+}
+
+.container.accent .label {
+  @apply bg-accent-500 text-white;
+}
+
+.icon {
+  @apply text-white text-2xl relative z-20;
+}
+
+.label {
+  @apply absolute top-0 z-10 h-8 w-auto whitespace-nowrap flex items-center justify-center scale-x-0 transition-transform;
+}
+
+.label.right {
+  @apply left-1/2 pl-6 pr-6 origin-left rounded-r-full;
+}
+
+.label.left {
+  @apply right-1/2 pl-6 pr-6 origin-right rounded-l-full;
+}

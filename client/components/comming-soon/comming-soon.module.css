@@ -1,0 +1,7 @@
+.card {
+  @apply w-full rounded-lg shadow-dark3 bg-white p-32 flex justify-center;
+}
+
+.title {
+  @apply text-lg font-bold italic;
+}
